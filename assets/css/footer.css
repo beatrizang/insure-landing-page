@@ -92,3 +92,31 @@
     color: var(--dark-grayish-violet);
     text-decoration: none;
 }
+
+@media screen and (max-width: 375px) {
+
+    .footer{
+        background: var(--very-light-gray);
+        background-image: url('../../images/bg-pattern-footer-mobile.svg');
+        background-repeat: no-repeat;
+    }
+
+    .footer__top{
+        display: flex;
+        flex-direction: column;
+        padding:2rem 0;
+    }
+
+    .footer__social{
+        margin-top: 1.5rem;
+    }
+
+    .footer__bottom{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .column__title{
+        margin: 2rem 0;
+    }
+}

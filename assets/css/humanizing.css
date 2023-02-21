@@ -1,10 +1,8 @@
 .humanizing{
     align-items: flex-start;
-    
     background: url('../../images/bg-pattern-intro-right-desktop.svg') top right,
     url('../../images/bg-pattern-intro-left-desktop.svg') -30px 250px;
     background-color: var(--dark-violet);
-    
     background-repeat: no-repeat;
     color: var(--very-light-gray);
     display: flex;

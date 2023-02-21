@@ -31,3 +31,22 @@
     background: var(--very-light-gray);
     color: var(--dark-violet);
 }
+
+@media screen and (max-width: 375px) {
+    .find{
+        background: var(--dark-violet);
+        background-image: url('../../images/bg-pattern-how-we-work-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: top right;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 8rem 1rem;
+        text-align: center;
+        padding:3rem;
+    }
+
+    .find__button{
+        margin-top: 2rem;
+    }
+}
