@@ -4,6 +4,7 @@
     background: url('../../images/bg-pattern-intro-right-desktop.svg') top right,
     url('../../images/bg-pattern-intro-left-desktop.svg') -30px 250px;
     background-color: var(--dark-violet);
+    
     background-repeat: no-repeat;
     color: var(--very-light-gray);
     display: flex;
@@ -50,5 +51,6 @@
     left: 50%;
     width: 400px;
     z-index: 0;
+    top: 50px;
     position: absolute;
 }

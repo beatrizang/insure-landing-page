@@ -1,0 +1,70 @@
+.footer{
+    background: var(--very-light-gray);
+    background-image: url('../../images/bg-pattern-footer-desktop.svg');
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+}
+
+.footer__top{
+    align-items: center;
+    border-bottom: 1px solid var(--dark-grayish-violet);
+    display: flex;
+    justify-content: space-between;
+    padding:3rem 0;
+    margin: 0 3rem;
+}
+
+.footer__social{
+    display: flex;
+}
+
+.social__item{
+    color: var(--dark-grayish-violet);
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    transition: all 0.3s linear;
+}
+
+.social__item:hover{
+    color: var(--dark-violet);
+}
+
+.footer__bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 3rem;
+}
+
+.column__title{
+    color: var(--dark-grayish-violet);
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.footer__menu{
+    color: var(--very-dark-violet);
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.column__item:hover{
+    text-decoration: underline;
+    transition: all 0.3s linear;
+}
+
+.attribution{
+    color: var(--dark-grayish-violet);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.attribution a{
+    color: var(--very-dark-violet);
+    text-decoration: underline;
+    transition: all 0.3s linear;
+}
+
+.attribution a:hover{
+    color: var(--dark-grayish-violet);
+    text-decoration: none;
+}

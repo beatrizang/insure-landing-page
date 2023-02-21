@@ -1,0 +1,43 @@
+.diferent{
+    margin: 5rem 3rem;
+}
+
+.diferent__line{
+    background: var(--grayish-blue);
+    height: 2px;
+    width: 100px;
+    margin: 4rem 0;
+
+}
+
+.diferent__title{
+    color: var(--very-dark-violet);
+    font-family: var(--ff-serif);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.diferent__list{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.diferent__item{
+    width: 33.3%;
+}
+
+.diferent__img{
+    width: 80px;
+}
+
+.diferent__sub{
+    color: var(--very-dark-violet);
+    font-family: var(--ff-serif);
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.diferent__param{
+    color: var(--dark-grayish-violet);
+    width: 80%;
+}
