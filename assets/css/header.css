@@ -1,0 +1,35 @@
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 3rem;
+}
+
+.nav__menu{
+    align-items: center;
+    color: var(--dark-grayish-violet);
+    display: flex;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav__item{
+    margin-left: 1.5rem;
+}
+
+.nav__item:hover{
+    color: var(--very-dark-violet);
+    transition: all 0.3s linear;
+}
+
+.nav__button{
+    border: 2px solid var(--very-dark-violet);
+    color: var(--very-dark-violet);
+    cursor: pointer;
+    padding: 0.6rem 1.2rem;
+}
+
+.nav__button:hover{
+    background: var(--very-dark-violet);
+    color: var(--very-light-gray);
+}
