@@ -24,13 +24,21 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+- Desktop
+
+![](./images/screens/1.png)
+![](./images/screens/2.png)
+![](./images/screens/3.png)
+
+- Mobile
+
+![](./images/screens/4.png)
 
 
 ### Links
 
 - Solution URL: 
-- Live Site URL:
+- Live Site URL: https://classy-custard-cef26e.netlify.app/
 
 ## My process
 
@@ -40,10 +48,10 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
+- JS Vanilla
 
 ## Author
 
-- Frontend Mentor - 
+- Frontend Mentor - https://www.frontendmentor.io/profile/beatrizang
 
 
