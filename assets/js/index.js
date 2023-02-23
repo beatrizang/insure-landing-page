@@ -4,7 +4,7 @@ let btnClose = document.getElementById('btn__close');
 let body = document.querySelector("body"); 
 
 document.getElementById('btn__menu').addEventListener('click',()=>{
-    nav.style.top = "75px";
+    nav.style.top = "60px";
     btnMenu.style.display = "none";
     btnClose.style.display = "flex";
     body.style.overflow = "hidden";
