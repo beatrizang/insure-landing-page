@@ -5,7 +5,7 @@
     padding: 2rem 3rem;
 }
 
-.btn__menu{
+#btn__menu{
     border: 2px solid var(--very-dark-violet);
     color: var(--very-dark-violet);
     cursor: pointer;
@@ -14,7 +14,7 @@
     padding: 0.2rem 0.5rem;
 }
 
-.btn__close{
+#btn__close{
     border: 2px solid var(--very-dark-violet);
     color: var(--very-dark-violet);
     cursor: pointer;
@@ -57,16 +57,46 @@
     .header{
         background: var(--very-light-gray);
         margin: 0;
-        z-index: 3;
+        z-index: 5;
         padding: 1rem 2rem;
     }
 
-    .btn__menu{
+    #btn__menu{
         display: flex;
     }
 
+
     .nav{
-        display: none;
+        background-image: url('../../images/bg-pattern-mobile-nav.svg') bottom right;
+        background: var(--very-dark-violet);
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        top: -100vh;
+        z-index: 1;
+        transition: all 0.3s linear;
+    }
+
+    .nav__menu{
+        align-items: center;
+        color: var(--very-light-gray);
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    .nav__item{
+        margin: 1.5rem auto;
+    }
+
+    .nav__button{
+        border: 2px solid var(--very-light-gray);
+        color: var(--very-light-gray);
+        width: 100%;
+        margin: 1.5rem 0 0 0;
     }
 }
 
@@ -75,15 +105,45 @@
     .header{
         background: var(--very-light-gray);
         margin: 0;
-        z-index: 3;
+        z-index: 5;
         padding: 1rem 2rem;
     }
 
-    .btn__menu{
+    #btn__menu{
         display: flex;
     }
 
+
     .nav{
-        display: none;
+        background-image: url('../../images/bg-pattern-mobile-nav.svg') bottom right;
+        background: var(--very-dark-violet);
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        top: -100vh;
+        z-index: 1;
+        transition: all 0.3s linear;
+    }
+
+    .nav__menu{
+        align-items: center;
+        color: var(--very-light-gray);
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    .nav__item{
+        margin: 1.5rem auto;
+    }
+
+    .nav__button{
+        border: 2px solid var(--very-light-gray);
+        color: var(--very-light-gray);
+        width: 100%;
+        margin: 1.5rem 0 0 0;
     }
 }
