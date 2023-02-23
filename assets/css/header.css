@@ -106,6 +106,7 @@
         background: var(--very-light-gray);
         margin: 0;
         z-index: 5;
+        height: 50px;
         padding: 1rem 2rem;
     }
 
