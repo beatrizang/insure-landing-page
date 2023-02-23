@@ -1,11 +1,15 @@
 let nav = document.getElementById('nav');
 let btnMenu = document.getElementById('btn__menu');
 let btnClose = document.getElementById('btn__close');
+let body = document.querySelector("body"); 
 
 document.getElementById('btn__menu').addEventListener('click',()=>{
-    nav.style.top = "50px";
+    nav.style.top = "53px";
     btnMenu.style.display = "none";
     btnClose.style.display = "flex";
+
+    
+    body.style.overflow = "hidden";
 });
 
 document.getElementById('btn__close').addEventListener('click', ()=>{
